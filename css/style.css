@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FB5B21;
+    --primary: #7719e2;
     --secondary: #BDBDBF;
     --light: #F4F5F8;
     --dark: #222429;
@@ -12,6 +12,25 @@
 [class*=" flaticon-"]:after {
     font-size: inherit;
     margin-left: 0;
+}
+.menuLinha ul {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e6e4e4;
+    height: 40px;
+}
+
+
+.menuLinha ul li {
+	list-style-type: none;
+    padding-right: 14px;
+    
+}
+.indiceCentro1 ul h3 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1,
