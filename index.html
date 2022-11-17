@@ -5,37 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Portifólio</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-</head>
-<body  style="background:rgb(97, 97, 97)"   >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+
     
-    <div id="nav" align="center">
-        <a href="#header">Cabeçalho</a>
-        <a href="#resume">Resumo</a>
-        <a href="#indiceExperiencias">Experiências</a>
-        <a href="#indiceHabilidades">Habilidades</a>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+
+
+    <style>
+
+        body{
+            /* background-color:#220c4b; */
+            background: rgb(72, 26, 105);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a057a",endColorstr="#351252",GradientType=1);
+            color: #53d8b7;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .photo{
+            border-radius: 25px;
+            border: 4px solid #9790ff;
+        }
+        .menssagem{
+            font-family: 'Space Grotesk', sans-serif;
+            font-style: italic;
+        }
+        h3 {
+            color: #3be286;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        li{
+            font-family: 'Space Grotesk', sans-serif;
+            color: #bfe4ff;
+        }
+        .menuLinha{
+            background: rgb(74, 6, 138);
+            background: radial-gradient(circle, rgb(74, 6, 138) 0%, rgba(63,27,130,1) 100%);
+            /* background-color: #5862e2; */
+            padding: 2px 100px;
+        }
+        .botao{
+            font: bold 12px/24px arial, helvetica, sans-serif;	
+
+            text-decoration: none;
+            color: #ffffff;
+            background-color: rgb(64, 5, 119);
+            border-radius: 5px;
+            padding: 5px 15px;
+            text-align:center;
+            
+            
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div align="center" class="menuLinha">
+        <a href="#header" class="botao"><b>Cabeçalho</b></a>
+        <a href="#resume" class="botao"><b>Resumo</b></a>
+        <a href="#indiceExperiencias" class="botao"><b>Experiências</b></a>
+        <a href="#indiceHabilidades" class="botao"><b>Habilidades</b></a>
     </div>
 
-    <div id="header" style="color:rgb(255, 255, 255)">
+    <div>
         <div>
-    <h2 align="middle" >
-        <img class="imagem" src="images/foto_perfil.jpeg" align="left" alt="minha foto" width="200px" ></img>
-        <br> <br> Olá prazer, me chamo Nathan de Assis Crevelin.<br/>
+            <img src="images/foto_perfil.jpeg" align="left" alt="minha foto" width="200px" class="photo" ></img>
+    <h2 align="center" class="menssagem"> <br> <br> ~ Olá prazer, me chamo Nathan de Assis Crevelin.<br/>
         Mas pode me chamar de neita!</h2>
     </div>
+    <br> <br>
 
-    <div class="menuLinha">
-        <br> <br>
+    <div class="menuLinha" align="center">
 
-        <ul lign="middle">
-            <li class="github" ><a href="https://github.com/eu-neita/" target="_blank"><b> Github</b></a></li>
-            <li class="linkedin" ><a href="https://www.linkedin.com/in/nathan-de-assis-crevelin-1a0471256/" target="_blank"><b>Linkedin</b></a></li>
-            <li class="email" ><a href="mailto:neitass.music@gmail.com" target="_blank"><b>Email contato</b></a></li>
-        </ul>
+            <a href="https://github.com/eu-neita/" target="_blank" class="botao"><b> Github</b></a>
+            <a href="https://www.linkedin.com/in/nathan-de-assis-crevelin-1a0471256/" target="_blank" class="botao"><b>Linkedin</b></a>
+           <a href="mailto:neitass.music@gmail.com" target="_blank" class="botao"><b>Email contato</b></a>
+        </>
     </div>
 
-    <div id="resume">
+    <div>
         <p><em>Um breve resumo sobre mim, nascido rm Curitiba/PR.<br> Sou uma pessoa <b>criativa</b> que busca aprender mais
         com experiências atualmente estou focado nos meus estudos de desenvolvimento web.<br>
         A <b>trybe</b> tem sido uma <b>ótima</b> ferramenta nessa minha jornada!</em></p>
@@ -43,23 +98,23 @@
 
 
     <hr>
-    <div id="indiceExperiencias">
+    <div>
         <ul class="" >
-            <h3 class="experiencias">Experiências:</h3>
-            <li class="experienciaWeb"><em>Introdução Webdesing 60h pela <b>Unicuritiba</em></b> </li>
-            <li class="experienciaCursoEletronica"><em>Curso <b>SENAI</b> 1 ano e meio de eletrônica e manutenção.</em></li>
-            <li class="experienciaTrabalho"><em>Trabalhei 6 messes na empresa <b>KIMADEIRAS</b> com produção de palets como menor aprendiz.</em></li>
+            <h3 class="tituloIndice">Experiências:</h3>
+            <li><em>Introdução Webdesing 60h pela <b>Unicuritiba</em></b> </li>
+            <li><em>Curso <b>SENAI</b> 1 ano e meio de eletrônica e manutenção.</em></li>
+            <li><em>Trabalhei 6 messes na empresa <b>KIMADEIRAS</b> com produção de palets como menor aprendiz.</em></li>
             
         </ul>
     </div>
 
     <hr>
-    <div id="indiceHabilidades">
+    <div>
         <ol>
-            <h3 class="tituloIndice">Pontos importantes desenvolvidos em soft-skills:</h3>
-            <li class="experienciaColaboracao"><em><b>Colaboração</b> com meus colegas.</em></li>
-            <li class="gestao"><em>Gestão de tempo <b>aprimorada.</b></em></li>
-            <li class="atencao"><em>Atenção para colaborar com um ambiente <b>inclusivo.</b> <br> <strong>~ "levo isso para vida".</strong></em></li>
+            <h3 >Pontos importantes desenvolvidos em soft-skills:</h3>
+            <li><em><b>Colaboração</b> com meus colegas.</em></li>
+            <li><em>Gestão de tempo <b>aprimorada.</b></em></li>
+            <li><em>Atenção para colaborar com um ambiente <b>inclusivo.</b> <br> <strong>~ "levo isso para vida".</strong></em></li>
         </ol>
     </div>
 
