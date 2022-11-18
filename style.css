@@ -20,26 +20,37 @@ body{
 .menssagem{
     font-family: 'Space Grotesk', sans-serif;
     font-style: italic;
-    font-size: 19px;
+    font-size: 15px;
+    margin-left: 50px;
     white-space: nowrap;
+}
+#resume{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 h3 {
     color: #3be286;
     font-family: 'Space Grotesk', sans-serif;
+    margin-top: 10px;
 }
 li{
     font-family: 'Space Grotesk', sans-serif;
     color: #bfe4ff;
 }
-.menuLinha{
+.menuLinha.header{
     background: rgb(74, 6, 138);
     background: radial-gradient(circle, rgb(74, 6, 138) 0%, rgba(63,27,130,1) 100%);
+}
+.menuLinha{
     /* background-color: #5862e2; */
     white-space: nowrap;
 }
+.menuLinha.menu-contados{
+
+        /* align-items: left; */
+}
 .botao{
     font: bold 12px/24px arial, helvetica, sans-serif;	
-
     text-decoration: none;
     color: #ffffff;
     background-color: rgb(64, 5, 119);
@@ -48,7 +59,8 @@ li{
     padding: 5px 10px;
     text-align:center;
     white-space: nowrap;
-    
 }
-
+a:hover{
+    background-color: rgb(124, 8, 231);
+}
 
