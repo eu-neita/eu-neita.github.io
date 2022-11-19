@@ -1,17 +1,15 @@
 body{
-    background: rgb(130, 0, 196, 0.6) ;
-    background-image:linear-gradient(0deg, rgba(130, 0, 196, 0.9) 50%, rgb(101, 28, 150, 0.9) 100%) , url(images/texture.jpg);
+    background-image:linear-gradient(0deg, rgba(145, 1, 218, 0.8) 50%, rgba(90, 22, 136, 0.8) 100%), url(images/texture.jpg);
     color: #53d8b7;
     font-family: 'Space Grotesk', sans-serif;
     max-width: 500px;
-    width: 100%;
     margin: 0 auto;
     zoom: 200%;
 }
 .photo{
-    border-radius: 25px;
-    border: 3px solid #9790ff;
-    white-space: nowrap;
+    border-radius: 16px;
+    border: 1px solid  rgb(214, 152, 255);
+
 }
 .menssagem{
     font-family: 'Space Grotesk', sans-serif;
@@ -21,6 +19,8 @@ body{
 #resume{
     margin-top: 10px;
     margin-bottom: 50px;
+    font-size: 15px;
+    /* text-align: center; */
 }
 h3 {
     color: #3be286;
@@ -51,14 +51,18 @@ a:hover{
     background-color: rgb(124, 8, 231);
 }
 .indiceExperiencias{
-    margin-bottom: 50px;
+    margin-bottom: 42px;
+    font-size: 12px;
 }
 .tituloIndice{
     margin-bottom: 40px;
+    text-align: center;
 }
 .indiceHabilidades{
     margin-bottom: 70px;
+    font-size: 12px;
 }
 .tituloIndice-hab{
+    text-align: center;
     margin-bottom: 40px;
 }
