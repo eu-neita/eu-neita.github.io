@@ -1,15 +1,17 @@
 body{
-    background-image:linear-gradient(0deg, rgba(145, 1, 218, 0.8) 50%, rgba(90, 22, 136, 0.8) 100%), url(images/texture.jpg);
+    background-image:linear-gradient(0deg, rgba(145, 1, 218, 0.8) 50%, rgba(90, 22, 136, 0.8) 100%), url('images/texture.jpg');/* adicionar um fundo com gardiente e textura*/
+     background-size: cover; /* para cobrir a tela inteira */
     color: #53d8b7;
     font-family: 'Space Grotesk', sans-serif;
+    /* para centralizar elementos no centro do body */
     max-width: 500px;
     margin: 0 auto;
+    /* para aumentar o tamanho */
     zoom: 200%;
 }
 .photo{
     border-radius: 16px;
     border: 1px solid  rgb(214, 152, 255);
-
 }
 .menssagem{
     font-family: 'Space Grotesk', sans-serif;
@@ -31,10 +33,6 @@ li{
     font-family: 'Space Grotesk', sans-serif;
     color: #bfe4ff;
 }
-/* .menuLinha.header{
-    background: rgb(74, 6, 138);
-    background: radial-gradient(circle, rgb(74, 6, 138) 0%, rgba(63,27,130,1) 100%);
-} */
 .menuLinha{
     font-size: 15px;
     list-style: none;
