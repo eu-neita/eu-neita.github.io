@@ -1,6 +1,7 @@
 body{
     background-image:linear-gradient(0deg, rgba(145, 1, 218, 0.8) 50%, rgba(90, 22, 136, 0.8) 100%), url('images/texture.jpg');/* adicionar um fundo com gardiente e textura*/
-     background-size: cover; /* para cobrir a tela inteira */
+    background-size: cover; /* para cobrir a tela inteira */
+    background-attachment: fixed;
     color: #53d8b7;
     font-family: 'Space Grotesk', sans-serif;
     /* para centralizar elementos no centro do body */
