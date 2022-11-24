@@ -1,68 +1,188 @@
-body{
-    background-image:linear-gradient(0deg, rgba(145, 1, 218, 0.8) 50%, rgba(90, 22, 136, 0.8) 100%), url('images/texture.jpg');/* adicionar um fundo com gardiente e textura*/
-    background-size: cover; /* para cobrir a tela inteira */
-    background-attachment: fixed;
-    color: #53d8b7;
-    font-family: 'Space Grotesk', sans-serif;
-    /* para centralizar elementos no centro do body */
-    max-width: 500px;
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
     margin: 0 auto;
-    /* para aumentar o tamanho */
-    zoom: 200%;
-    width: 50vh;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-.photo{
-    border-radius: 16px;
-    border: 1px solid  rgb(214, 152, 255);
-}
-.menssagem{
-    font-family: 'Space Grotesk', sans-serif;
-    font-style: italic;
-    font-size: 15px;
-}
-#resume{
-    margin-top: 10px;
-    margin-bottom: 50px;
-    font-size: 15px;
-    /* text-align: center; */
-}
-h3 {
-    color: #3be286;
-    font-family: 'Space Grotesk', sans-serif;
-    margin-top: 10px;
-}
-li{
-    font-family: 'Space Grotesk', sans-serif;
-    color: #bfe4ff;
-}
-.menuLinha{
-    font-size: 15px;
+/* nav bar */
+#nav-bar{
+    background-color: #343a40;
     list-style: none;
-    margin-left: 220px;
+}
+#nav-bar ul li{
+    display: inline;
+}
+#nav-bar ul li a {
+    color: #fff;
+    padding: 10px;
+    font-family: 'Comic Neue', cursive;
     text-decoration: none;
+    display:inline-block;
+    font-weight: bold;
+    transition: background .2s;
 }
-.botao{
-    color: #ffffff;
-    /* background-color: rgb(64, 5, 119); */
-    border-radius: 5px;
-    padding: 2px 5px;
+#nav-bar ul a:hover{
+    background-color: #adb5bd;
 }
-a:hover{
-    background-color: rgb(124, 8, 231);
+.left-button{
+    /* background-color: rgb(0, 0, 0); */
+    float: right;
+    margin: 0 0 0 16px;
 }
-.indiceExperiencias{
-    margin-bottom: 42px;
-    font-size: 12px;
+h1.outline, .outline {
+    display: none;
+  }
+/* secao Header */
+#photo{
+    width: 188px;
+    display: block;
+    margin: 0 auto 64px;
+    border-radius: 25px;
+    border: 3px solid #FFE2BA;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 }
-.tituloIndice{
-    margin-bottom: 40px;
+#header{
+    background:linear-gradient(30deg, #7381fffa 50%, #2f2a49 100%), url(./images/Textura_fundo.png) ;
+    background-attachment: fixed;
+    padding-top: 34px;
+    padding-bottom: 24px;
+}
+#header #desc-title{
+    text-align: center;
+    margin: 34px;
+    font-size: 64px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.contacts ul{
+    list-style: none;
+    /* border: 2px solid black; */
     text-align: center;
 }
-.indiceHabilidades{
-    margin-bottom: 70px;
-    font-size: 12px;
+.contacts ul li{
+    display: inline;
 }
-.tituloIndice-hab{
+.contacts ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 32px;
+    padding: 3px 3px;
+    margin: 0 9px ;
+}
+.contacts ul li a:hover {
+    background-color: #969ee7;;
+    border-radius: 3px;
+    transition: background .2s;
+}
+.github:hover {
+    color: #495057;
+    transition: background .2s;
+}
+.linkedin:hover {
+    color: #0e76a8;
+    transition: background .2s;
+}
+.email:hover {
+    color: #dd1b1b;
+    transition: background .2s;
+}
+/* secao aboutme */
+#aboutme .title-about{
     text-align: center;
-    margin-bottom: 40px;
+    margin: 32px;
+    font-family: 'Lobster', cursive;
+    color: #495057;
+    font-size: 32px;
+}
+#aboutme .present{
+    text-align: center;
+    margin: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #495057;
+    font-size: 22px;
+}
+/* secao spots */
+.title-spots{
+    text-align: center;
+    margin: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #495057;
+    font-size: 44px;
+    padding: 8px;
+}
+#positive{
+    color: rgb(0, 192, 0);
+    margin: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+#negative{
+    color: rgb(220, 0, 0);
+    margin: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.table .itens-spots{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 230px;
+}
+.table .itens-spots .title-itens{
+    margin: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #495057;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.table .itens-spots .list-spots .itens-list{
+    margin: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #495057;
+    font-size: 16px;
+    text-align: center;
+    list-style: none;
+}
+.negative-warning{
+    text-align: center;
+    margin: 64px auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(212, 235, 13);
+    background-color: rgb(221, 0, 0);;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* video secao */
+#video-i-liked .video-title{
+    text-align: center;
+    margin: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #495057;
+    font-size: 44px;
+    padding: 8px;
+}
+#video-i-liked #video{
+     margin:0 auto 100px;
+    display: block;
+}
+#footer{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #343a40;
+    border: 1px solid black;
+    font-family: 'Comic Neue', cursive;
+    padding: 10px;
 }
