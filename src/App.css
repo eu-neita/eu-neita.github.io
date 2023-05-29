@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+#root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.background {
+  background: rgb(78,33,51);
+  background: linear-gradient(90deg, rgb(33, 44, 78) 0%, rgba(18, 50, 124, 0.98) 50%, rgb(32, 89, 138) 100%), url(./images/Textura_fundo.png);
+  background-attachment: fixed;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+button {
+  background: linear-gradient(to top, #4563a0 50%, #4c75af00 50%);
+  background-size: 100% 200%;
+  transition: all .2s ease-in-out;
+  padding: 24px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: sans-serif;
+}
+
+#allThinks {
+  background-color: #1c242d;
+}
+
+button:hover {
+  background-position: 0 100%;
+}
+
+#title-about {
+  color: #4563a0;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: sans-serif;
+}
+
+.aboutme img {
+  width: 800px;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 5px;
+}
+
+#apresentation {
+  overflow: hidden;
+}
+
+.aboutme h3 {
+  font-size: 100px;
+  color: rgb(0, 157, 255);
+}
+
+#present {
+  font-size: 25px;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact li {
+  margin-top: 38px;
+  list-style: none;
+}
+
+#contact li a{
+  text-decoration: none;
+  background: linear-gradient(to top, #8b45a0 50%, #4c75af00 50%);
+  background-size: 100% 200%;
+  transition: all .2s ease-in-out;
+  padding: 24px;
+}
+
+#contact li a:hover {
+  background-position: 0 100%;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
