@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import { Fade , Slide, AttentionSeeker } from "react-awesome-reveal";
 import myPhoto from "./images/foto_perfil.png";
 import desci from "./images/descri.png"
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import {MdEmail} from 'react-icons/md'
 import './App.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -33,16 +35,17 @@ function App() {
           </div>
         </div>
       </div>
+
       <div data-aos="fade-left"
      data-aos-anchor-placement="bottom-bottom"
      data-aos-duration="5000"
      id="contacts">
-          <h1 className="nocontent outline">Contacts</h1>
+          <h1 className="nocontent outline">Contatos</h1>
             <ul id='contact'>
               <AttentionSeeker effect="bounce">
-                <li><a href="https://www.linkedin.com/in/nathan-de-assis-crevelin-1a0471256/" target="_blank" className="linkedin" rel="noreferrer"> Linkedin</a></li>
-                <li><a href="https://github.com/eu-neita" target="_blank" className="github" rel="noreferrer">GitHub</a></li>
-                <li><a href="mailto:neitass.music@gmail.com" className="email">email</a></li>
+                <li><a href="https://www.linkedin.com/in/nathan-de-assis-crevelin-1a0471256/" target="_blank" className="linkedin" rel="noreferrer"> <FaLinkedin /></a></li>
+                <li><a href="https://github.com/eu-neita" target="_blank" className="github" rel="noreferrer"><FaGithubSquare /></a></li>
+                <li><a href="mailto:neitass.music@gmail.com" className="email"><MdEmail /></a></li>
               </AttentionSeeker>
             </ul>
         </div>

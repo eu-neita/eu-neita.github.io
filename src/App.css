@@ -91,16 +91,22 @@ button:hover {
   display: flex;
   flex-direction: column;
   padding: 24px;
+  margin-top: 24px;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px #000000bb;
 }
 
 #contact {
   display: flex;
   flex-direction: row;
+  font-size: 2vw;
 }
 
 #contact li {
   margin-top: 38px;
   list-style: none;
+  text-shadow: 2px 2px 4px #000000bb;
 }
 
 #contact li a{
