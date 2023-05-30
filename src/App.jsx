@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { Fade , Slide, AttentionSeeker } from "react-awesome-reveal";
 import myPhoto from "./images/foto_perfil.png";
+import desci from "./images/descri.png"
 import './App.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -25,6 +26,9 @@ function App() {
             <Slide triggerOnce cascade>
               <h3 className="title-about">~Olá</h3>
               <p id="present">Me chamo Nathan mas pode me chamar de neita!</p>
+            </Slide>
+            <Slide triggerOnce cascade delay={ 1500 } direction='right' duration={ 3000 }>
+                <img src={desci} alt="descrição sobre mim" id="description" />
             </Slide>
           </div>
         </div>
