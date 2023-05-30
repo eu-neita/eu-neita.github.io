@@ -19,7 +19,6 @@ function App() {
       </div>
       <div className="background">
       <div id='buttons' data-aos="zoom-out-down" data-aos-duration="3000">
-          <button>Home</button>
           <button>Projetos</button>
         </div>
         <div data-aos="zoom-in-right" data-aos-duration="3000" className="aboutme">
@@ -38,14 +37,13 @@ function App() {
 
       <div data-aos="fade-left"
      data-aos-anchor-placement="bottom-bottom"
-     data-aos-duration="5000"
      id="contacts">
           <h1 className="nocontent outline">Contatos</h1>
             <ul id='contact'>
-              <AttentionSeeker effect="bounce">
+              <AttentionSeeker effect="bounce" delay={ 400 }>
                 <li><a href="https://www.linkedin.com/in/nathan-de-assis-crevelin-1a0471256/" target="_blank" className="linkedin" rel="noreferrer"> <FaLinkedin /></a></li>
                 <li><a href="https://github.com/eu-neita" target="_blank" className="github" rel="noreferrer"><FaGithubSquare /></a></li>
-                <li><a href="mailto:neitass.music@gmail.com" className="email"><MdEmail /></a></li>
+                <li><a href="mailto:neitass.music@gmail.com" className="email"><MdEmail id='MdEmail' /></a></li>
               </AttentionSeeker>
             </ul>
         </div>

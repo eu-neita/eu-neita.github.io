@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  color: white;
+  /* color: white; */
 }
 
 #root {
@@ -37,6 +37,7 @@ button {
   cursor: pointer;
   font-size: larger;
   text-shadow: 2px 2px 4px #000000bb;
+  color: white
 }
 
 #allThinks {
@@ -57,6 +58,7 @@ button:hover {
   padding: 60px;
   text-shadow: 2px 2px 4px #000000bb;
   font-family: 'Montserrat', sans-serif;
+  color: white
 }
 
 .aboutme img {
@@ -95,6 +97,7 @@ button:hover {
   font-size: 2vw;
   font-family: 'Montserrat', sans-serif;
   text-shadow: 2px 2px 4px #000000bb;
+  color: white
 }
 
 #contact {
@@ -111,15 +114,18 @@ button:hover {
 
 #contact li a{
   text-decoration: none;
-  background: linear-gradient(to top, #8b45a0 50%, #4c75af00 50%);
+  background: linear-gradient(to top, #4563a0 50%, #4c75af00 50%);
   background-size: 100% 200%;
   transition: all .2s ease-in-out;
   padding: 24px;
+  color: rgb(255, 255, 255);
 }
 
 #contact li a:hover {
   background-position: 0 100%;
+  color: rgb(0, 157, 255);
 }
+
 
 
 /* @keyframes logo-spin {
