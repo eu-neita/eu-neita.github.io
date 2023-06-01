@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* color: white; */
+}
+
+#root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.background {
+  background: rgb(78,33,51);
+  background: linear-gradient(90deg, rgb(33, 44, 78) 0%, rgba(18, 50, 124, 0.98) 50%, rgb(32, 89, 138) 100%), url(./images/Textura_fundo.png);
+  background-attachment: fixed;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to top, #4563a0 50%, #4c75af00 50%);
+  background-size: 100% 200%;
+  transition: all .2s ease-in-out;
+  padding: 24px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  text-shadow: 2px 2px 4px #000000bb;
+  color: white
+}
+
+#allThinks {
+  background-color: #1c242d;
+}
+
+button:hover {
+  background-position: 0 100%;
+}
+
+#title-about {
+  color: #4563a0;
+}
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  text-shadow: 2px 2px 4px #000000bb;
+  font-family: 'Montserrat', sans-serif;
+  color: white
+}
+
+.aboutme img {
+  border-radius: 5px;
+  width: 48vw;
+}
+
+
+#description {
+  float: right;
+  margin-top: 24px;
+  margin: 5px;
+  width: 21vw;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #00000042;
+}
+
+#apresentation {
+  overflow: hidden;
+}
+
+.aboutme h3 {
+  font-size: 7vw;
+  color: rgb(0, 157, 255);
+}
+
+#present {
+  font-size: 2vw;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin-top: 48px;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px #000000bb;
+  color: white
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+}
+
+#contact li {
+  margin-top: 38px;
+  list-style: none;
+  text-shadow: 2px 2px 4px #000000bb;
+  margin-bottom: 48px;
+}
+
+#contact li a{
+  text-decoration: none;
+  background: linear-gradient(to top, #4563a0 50%, #4c75af00 50%);
+  background-size: 100% 200%;
+  transition: all .2s ease-in-out;
+  padding: 24px;
+  color: rgb(255, 255, 255);
+}
+
+#contact li a:hover {
+  background-position: 0 100%;
+  color: rgb(0, 157, 255);
+}
+
+
+#Technologies {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin-top: 48px;
+  font-size: 2vw;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px #000000bb;
+  color: white
+}
+
+#Technologies-icon {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+}
+
+#Technologies-icon li {
+  margin-top: 38px;
+  list-style: none;
+  text-shadow: 2px 2px 4px #000000bb;
+  margin-bottom: 48px;
+}
+
+#Technologies-icon li a{
+  text-decoration: none;
+  background: linear-gradient(to top, #4563a0 50%, #4c75af00 50%);
+  background-size: 100% 200%;
+  transition: all .2s ease-in-out;
+  padding: 24px;
+  color: rgb(255, 255, 255);
+}
+
+#Technologies-icon li a:hover {
+  background-position: 0 100%;
+  color: rgb(255, 102, 0);
+}
+
+
+
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
